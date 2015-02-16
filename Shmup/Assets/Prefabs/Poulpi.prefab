@@ -12,6 +12,8 @@ GameObject:
   - 61: {fileID: 6111998}
   - 50: {fileID: 5011998}
   - 114: {fileID: 11479734}
+  - 114: {fileID: 11426586}
+  - 114: {fileID: 11469850}
   m_Layer: 0
   m_Name: Poulpi
   m_TagString: Untagged
@@ -57,6 +59,30 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 4, y: 4}
   m_Center: {x: 0, y: 0}
+--- !u!114 &11426586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f60e6e35fa6c44cd825d9e7994ce905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11469850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6b0cfb3fa3c4e0fa2e215081a9ff65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 10, y: 10}
+  direction: {x: -1, y: 0}
 --- !u!114 &11479734
 MonoBehaviour:
   m_ObjectHideFlags: 1
